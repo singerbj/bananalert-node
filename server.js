@@ -47,5 +47,5 @@ app.post('/bananas', jsonParser, function(req, res) {
     res.send(JSON.stringify(req.body));
 });
 
-app.listen(80);
-console.log('listening on port 80');
+app.listen(3000);
+console.log('listening on port 3000');
